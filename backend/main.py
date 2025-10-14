@@ -5,7 +5,6 @@ from pydantic import BaseModel
 from typing import List, Dict, Any
 from io import BytesIO
 import httpx
-import re
 from datetime import datetime
 
 # PDF libs
