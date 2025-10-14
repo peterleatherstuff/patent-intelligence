@@ -1,10 +1,15 @@
-pycache/
+# Python
+__pycache__/
 *.pyc
-*.pyo
-.pyd
-.env
 .venv/
 venv/
-.env.
+.env
+
+# Node / static builds
+node_modules/
+dist/
+build/
+
+# OS junk
 .DS_Store
 Thumbs.db
