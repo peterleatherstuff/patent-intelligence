@@ -32,7 +32,7 @@ class PatentResult(BaseModel):
     abstract: str
     url: str
     status: str  # "Active" or "Expired"
-   1 priority_date: Optional[str] = None
+    priority_date: Optional[str] = None
     assignee: Optional[str] = None
 
 class AnalysisResponse(BaseModel):
