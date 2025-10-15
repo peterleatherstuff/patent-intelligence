@@ -14,13 +14,17 @@ Live demo:
 
 
 
-\## Local run
+\## Local run (Windows PowerShell)
+
+
+
+1\. Create \& activate backend virtual env (first time only)
+
+```powershell
+
+cd C:\\Users\\Pete\\Desktop\\patent-app\\backend
 
 python -m venv venv
 
 venv\\Scripts\\activate
-
-pip install -r backend/requirements.txt
-
-uvicorn backend.main:app --reload
 
